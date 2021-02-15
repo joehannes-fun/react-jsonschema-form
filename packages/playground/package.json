@@ -1,7 +1,7 @@
 {
-  "name": "@rjsf/playground",
-  "version": "2.4.2",
-  "description": "rjsf playground",
+  "name": "us-jsonschema-playground",
+  "version": "0.1.0",
+  "description": "joehannes-fun json-schema playground",
   "private": true,
   "scripts": {
     "build:lib": "rimraf lib && cross-env NODE_ENV=production babel -d lib/ src/",
@@ -129,16 +129,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rjsf-team/react-jsonschema-form.git"
+    "url": "git+https://github.com/joehannes-fun/react-jsonschema-form.git"
   },
-  "author": "Nicolas Perriault <nperriault@mozilla.com>",
+  "author": "joehannes <johannes.neugschwentner@gmail.com>",
   "keywords": [
     "react",
     "form",
     "json-schema"
   ],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/rjsf-team/react-jsonschema-form",
+  "homepage": "https://github.com/joehannes-fun/react-jsonschema-form",
   "publishConfig": {
     "access": "public"
   }
